@@ -6,7 +6,7 @@ const CoupleRoom = () => {
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure><img src={couple} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
+                <h2 className="card-title">Couple Room</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary">Buy Now</button>

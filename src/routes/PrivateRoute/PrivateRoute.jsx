@@ -17,7 +17,7 @@ const PrivateRoute = ({ children }) => {
     }
 
     // user & user er uid jodi thake tahole PrivateRoute er children jara thakbe tader access korte dibo
-    if (user && user.uid) {
+    if (user?.email && user?.uid) {
         return children;
     }
 
